@@ -61,6 +61,18 @@ Build output:
 dist\Suno AI Music Downloader\Suno AI Music Downloader.exe
 ```
 
+To create a GitHub Release-ready ZIP package:
+
+```powershell
+.\package_release.bat
+```
+
+Release package output:
+
+```text
+release\Suno-AI-Music-Downloader-v1.0.0-win64.zip
+```
+
 ## Project Structure
 
 ```text
@@ -83,6 +95,21 @@ The app stores user settings here on Windows:
 ```text
 %APPDATA%\SunoDownloader\settings.json
 ```
+
+## Download and Run
+
+For end users downloading a release build:
+
+1. Download the ZIP file from the GitHub Releases page.
+2. Extract the ZIP to a normal folder such as `Desktop` or `Documents`.
+3. Open the extracted folder.
+4. Run `Suno AI Music Downloader.exe`.
+
+Notes:
+
+- Do not run the app directly from inside the ZIP file.
+- Keep all extracted files together in the same folder.
+- On first run, Windows SmartScreen may show a warning for unsigned software. If you trust the file, choose the option to continue.
 
 ## Notes
 
